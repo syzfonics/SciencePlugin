@@ -19,6 +19,10 @@ Plugin for BakkesMod that can be used to perform scientific experiments within R
 - To show/hide panels, use the settings in the bakkesmod menu (F2) (only works when plugin loaded on start-up). Alternatively, use the `showHUD`/`hideHUD` commands.
 - To record e.g. car data, set `recordCarInfo` to 1, and to 0 to stop recording. I recommend adding hotkeys for these commands such that recording and stopping can be done with simple button presses.
 
+# How to build
+- set environment variable `%BakkesModSDK% = (Path of Bakkes Mod SDK)`
+- build x86 Release
+
 For questions, feel free to contact me on discord: Arator#5686.
 
 Big thanks to Bakkes for creating BakkesMod and its SDK.

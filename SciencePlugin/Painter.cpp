@@ -15,7 +15,7 @@ using namespace sp;
 void Painter::initDrawables()
 {
 	gameWrapper->RegisterDrawable([this](CanvasWrapper cw) {
-		if (!gameWrapper->IsInTutorial()) {
+		if (!gameWrapper->IsInFreeplay()) {
 			return;
 		}
 
